@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100vw;
+  background-color: teal;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  height: 5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+a {
+  padding: .3em;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 5em;
+  background-color: grey;
+  text-align: center;
+}
+
+section {
+  padding: 2em;
+}
+
+#portfolio {
+  background-color: yellow;
+}
+
+#carousel {
+  height: 80vh;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+}
+
+.horse {
+  display: flex;
+  flex-flow: row no-wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border: 1px dashed;
+  width: 20%;
+}
+
+.horse > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80%;
+  order: -1;
+  align-self: flex-start;
+}
+
+#contact {
+  background-color: orange;
+}
+
+footer {
+  text-align: center;
+}
