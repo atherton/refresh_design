@@ -1,1 +1,1 @@
-# refresh_design
+# Welcome to Refresh Home Design!
